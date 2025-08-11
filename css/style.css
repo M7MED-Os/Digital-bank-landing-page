@@ -29,7 +29,7 @@ html {
   bottom: 30px;
   right: 30px;
   z-index: 1001;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   transition: var(--main-transition-duration) ease;
@@ -592,6 +592,20 @@ footer .container .invite-copy {
 
 footer .container .invite-copy p {
   color: var(--gray-600);
+}
+
+footer .me {
+  color: var(--cyan-400);
+  font-weight: bold;
+  transition: var(--main-transition-duration) ease;
+}
+
+footer .copy:first-of-type {
+  margin: 5px 0;
+}
+
+footer .me:hover {
+  color: var(--green-500);
 }
 
 @media (max-width: 767px) {

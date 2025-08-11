@@ -7,7 +7,7 @@ It includes smooth navigation, animated hamburger menu, scroll animations, and a
 
 ## Live Demo
 
-[🔗 View Demo](#)
+[🔗 View Demo](https://m7med-os.github.io/Digital-bank-landing-page/)
 
 ---
 
@@ -35,12 +35,3 @@ It includes smooth navigation, animated hamburger menu, scroll animations, and a
 - **HTML5**
 - **CSS3** (Flexbox, Media Queries, Animations)
 - **JavaScript** (DOM manipulation, Event listeners)
-
----
-
-## 🚀 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   ```
