@@ -315,10 +315,6 @@ nav ul li a:hover::before {
   padding-bottom: var(--main-section-padding);
 }
 
-.landing.active {
-  z-index: -1;
-}
-
 @media (min-width: 768px) {
   .landing {
     height: calc(100vh - 70px);
@@ -623,6 +619,15 @@ footer .me:hover {
   footer .container .invite-copy p {
     margin-top: 10px;
   }
+}
+
+/* !!!!!!!! */
+
+.landing.active,
+.why-choose.active,
+.last-articles.active {
+  position: relative;
+  z-index: -1;
 }
 
 /* !!!!!!!! */

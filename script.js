@@ -21,6 +21,8 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
 const overlay = document.getElementById('overlay');
 const landing = document.getElementById('landing');
+const whyChoose = document.getElementById('why-choose');
+const lastArticles = document.getElementById('last-articles');
 const navLinks = document.querySelectorAll('#navMenu ul li a');
 
 function closeMenu() {
@@ -28,6 +30,8 @@ function closeMenu() {
   navMenu.classList.remove('active');
   overlay.classList.remove('active');
   landing.classList.remove('active');
+  whyChoose.classList.remove('active');
+  lastArticles.classList.remove('active');
   document.body.classList.remove('menu-open');
 }
 
@@ -36,6 +40,8 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   overlay.classList.toggle('active');
   landing.classList.toggle('active');
+  whyChoose.classList.toggle('active');
+  lastArticles.classList.toggle('active');
   document.body.classList.toggle('menu-open');
 });
 
